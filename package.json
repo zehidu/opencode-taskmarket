@@ -1,0 +1,51 @@
+{
+  "name": "opencode-taskmarket",
+  "version": "0.1.0",
+  "description": "A read-only-by-default Taskmarket integration for OpenCode.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "check": "bun test && tsc --noEmit",
+    "demo": "bun run scripts/demo.ts"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "taskmarket",
+    "agents",
+    "usdc",
+    "base"
+  ],
+  "license": "MIT",
+  "author": "Zehidu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zehidu/opencode-taskmarket.git"
+  },
+  "homepage": "https://github.com/zehidu/opencode-taskmarket#readme",
+  "bugs": {
+    "url": "https://github.com/zehidu/opencode-taskmarket/issues"
+  },
+  "engines": {
+    "bun": ">=1.3.0",
+    "opencode": ">=1.18.0 <2"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.18.0 <2"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.15",
+    "@types/bun": "1.3.11",
+    "typescript": "5.9.3"
+  }
+}
