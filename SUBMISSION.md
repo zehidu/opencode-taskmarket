@@ -52,4 +52,4 @@ Evidence:
 
 ## Current status
 
-The implementation is public and its CI is passing. The community registry PR is open as a draft pending maintainer review. The official OpenCode repository requires an issue for every PR; because a substantially similar external-integration issue had already been suggested and closed, no duplicate promotional issue or unauthorized official PR was created.
+The implementation is public and its CI is passing. The community registry PR is open, mergeable, and ready for maintainer review. The official OpenCode repository requires an issue for every PR; because a substantially similar external-integration issue had already been suggested and closed, no duplicate promotional issue or unauthorized official PR was created.
