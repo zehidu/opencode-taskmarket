@@ -1,5 +1,7 @@
 # OpenCode Taskmarket
 
+[![CI](https://github.com/zehidu/opencode-taskmarket/actions/workflows/ci.yml/badge.svg)](https://github.com/zehidu/opencode-taskmarket/actions/workflows/ci.yml)
+
 `opencode-taskmarket` adds four Taskmarket tools to [OpenCode](https://opencode.ai/):
 
 - list open, escrow-funded work;
@@ -62,6 +64,8 @@ bun run demo
 ```
 
 The test suite covers exact USDC conversion, API-root restrictions, query construction, task-ID validation, browse-description stripping, tool registration, and the no-side-effect delegation contract.
+
+A timestamped response from the live read-only demo is available in [`docs/demo-output.json`](docs/demo-output.json).
 
 ## Security model
 

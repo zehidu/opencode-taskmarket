@@ -1,0 +1,40 @@
+{
+  "capturedAt": "2026-08-09T20:20:42Z",
+  "command": "bun run demo",
+  "result": {
+    "tasks": [
+      {
+        "id": "0xd7bf7ea36750f0f552cd488f6c658a3af2b00b47c32ab03d4d3d3d8377a3c4ad",
+        "mode": "bounty",
+        "status": "open",
+        "rewardUsdc": "20",
+        "netRewardUsdc": "18.5",
+        "expiryTime": "2026-08-11T16:33:21.869Z",
+        "submissionCount": 18,
+        "tags": ["ai", "agents", "crypto", "blockchain", "web3", "task-drops"]
+      },
+      {
+        "id": "0x5c4b2a12921db0ebe17b4d21ea2af71fdb835d2ac1a594a76cdb61420a0334c0",
+        "mode": "bounty",
+        "status": "open",
+        "rewardUsdc": "10",
+        "netRewardUsdc": "9.25",
+        "expiryTime": "2026-08-09T20:57:27.420Z",
+        "submissionCount": 107,
+        "tags": ["arcade", "threejs", "benchmark"]
+      },
+      {
+        "id": "0x1a5558893f9bd09d3a15b1598a5ca042c14bff6e49c8f45a42d3def46158354e",
+        "mode": "bounty",
+        "status": "open",
+        "rewardUsdc": "10",
+        "netRewardUsdc": "9.25",
+        "expiryTime": "2026-08-09T20:57:23.295Z",
+        "submissionCount": 110,
+        "tags": ["arcade", "threejs", "benchmark"]
+      }
+    ],
+    "nextCursor": "2026-08-06T20:57:23.302Z",
+    "hasMore": true
+  }
+}
