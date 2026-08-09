@@ -44,7 +44,8 @@ The test suite passes 8 tests with 24 assertions and TypeScript strict checking.
 
 Evidence:
 
-- Passing CI log: https://github.com/zehidu/opencode-taskmarket/actions/runs/31333805634
+- Versioned release: https://github.com/zehidu/opencode-taskmarket/releases/tag/v0.1.0
+- Passing CI log: https://github.com/zehidu/opencode-taskmarket/actions/runs/31334148144
 - Captured live demo output: https://github.com/zehidu/opencode-taskmarket/blob/main/docs/demo-output.json
 - Community registry PR: https://github.com/awesome-opencode/awesome-opencode/pull/586
 - Registry PR commit: `582eeb5457bbf7fa31d2932dd3790da48d139f1e`
